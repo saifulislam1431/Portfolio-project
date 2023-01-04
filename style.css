@@ -49,6 +49,10 @@
 
 }
 
+section{
+    margin-top: 130px;
+}
+
 /* Header nad nav */
 
 .header{
@@ -113,7 +117,7 @@ nav li a{
     
 }
 
-img{
+.hero-img{
     width: 500px;
     margin-right: -270px;
     margin-top: 252px;
@@ -129,7 +133,7 @@ main{
 
 .about{
 
-    margin-top: 130px;
+    /* margin-top: 130px; */
     background-color: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -140,7 +144,8 @@ main{
 
 .section-title{
     font-size: 35px ;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
+    text-align: center;
 
 }
 
@@ -176,3 +181,83 @@ tbody td{
     
 }
 
+
+/* What i do */
+
+/* .my-skills{
+
+    margin-top: 130px;
+    margin-bottom: 40px;
+
+} */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 80px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 80px;
+}
+
+.skill:hover{
+    background-color: #ffffff;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.06);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.skill-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.skill-description{
+    color: #757575;
+
+}
+
+/* Resume */
+
+.resume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title{
+    margin-bottom: 20px;
+}
+
+.edu{
+    padding: 0 0 10px 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.233);
+    
+}
+
+
+
+.experence {
+    padding: 0 0 10px 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.233);
+
+}
+
+.resume-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+}
