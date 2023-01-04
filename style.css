@@ -258,6 +258,32 @@ tbody td{
     justify-content: center;
 }
 
+
+/* Contact */
+
 .contact{
     display: flex;
+    background-color: #fff8f3;
+    padding: 100px 50px;
+    /* height: 300px; */
+}
+
+.contact input, textarea{
+    border: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.social-icon{
+    margin-top: 50px;
+}
+
+
+form{
+    margin-top: 50px;
 }
