@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-primary{
+    color: limegreen;
+}
+
+.btn-primary{
+
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px;
+    cursor: pointer;
+    
+}
+
+.btn-primary:hover{
+    background-color: rgb(5, 153, 5);
+    color: aliceblue;
+
+
+}
+
+.btn-secondary{
+    background-color: white;
+    color: #32cd32;
+    border: 1px solid #32cd32;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background-color: #32cd32;
+    color: white;
+    border: none;
+    margin-left: 10px;
+
+}
+
+/* Header nad nav */
+
+.header{
+
+    background: #fff8f3 ;
+    background-image: url(/Portfolio-project/images/header_bg.png),url(/Portfolio-project/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    height: 900px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 100px 50px ;
+}
+.nav-title{
+
+    font-size: 30px;
+
+}
+
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.911);
+}
+
+/* banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 220px;
+}
+
+.b-title{
+    font-size: 25px;
+}
+
+.b-subTitle{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.b-description{
+    color: rgba(31, 29, 29, 0.966);
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+
+img{
+    width: 500px;
+    margin-right: -270px;
+    margin-top: 252px;
+}
+/* main */
+ 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About */
+
+.about{
+
+    margin-top: 130px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.section-title{
+    font-size: 35px ;
+    margin-bottom: 30px;
+
+}
+
+.section-description{
+
+    color: #757575 ;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+table{
+    margin: 0 auto;
+    
+}
+
+table,td,tr{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+   
+}
+
+thead td{
+    font-weight: 450;
+    color: #757575;
+    
+}
+
+tbody td{
+    font-weight: 660;
+    
+}
+
