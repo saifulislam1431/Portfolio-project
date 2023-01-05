@@ -58,7 +58,7 @@ section{
 .header{
 
     background: #fff8f3 ;
-    background-image: url(/Portfolio-project/images/header_bg.png),url(/Portfolio-project/images/developer.png);
+    background-image: url(/images/header_bg.png),url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
     height: 900px;
