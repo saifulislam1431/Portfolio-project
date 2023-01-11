@@ -31,13 +31,13 @@
 }
 
 .btn-secondary{
-    background-color: white;
+    background-color: transparent;
     color: #32cd32;
     border: 1px solid #32cd32;
     border-radius: 5px;
     height: 35px;
     font-size: 15px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     cursor: pointer;
 }
 
@@ -45,7 +45,7 @@
     background-color: #32cd32;
     color: white;
     border: none;
-    margin-left: 10px;
+   
 
 }
 
@@ -67,6 +67,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: 0 50px 100px 50px ;
+    
 }
 .nav-title{
 
@@ -118,9 +119,9 @@ nav li a{
 }
 
 .hero-img{
-    width: 500px;
+    width: 45%;
     margin-right: -270px;
-    margin-top: 241px;
+    margin-top: 107px;
 }
 /* main */
  
@@ -157,12 +158,9 @@ main{
 
 }
 
-table{
+.about-info{
+    display: flex;
     margin: 0 auto;
-    
-}
-
-table,td,tr{
     padding: 10px;
     text-align: center;
     justify-content: center;
@@ -170,14 +168,19 @@ table,td,tr{
    
 }
 
-thead td{
-    font-weight: 450;
-    color: #757575;
+
+
+.title{
+    font-weight: 600;
+    color: rgb(12, 134, 12);
+    margin-right: 30px;
+    font-size: 18px;
     
 }
 
-tbody td{
+.value{
     font-weight: 660;
+    margin-right: 30px;
     
 }
 
@@ -192,13 +195,15 @@ tbody td{
 } */
 
 .skills-container{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
     display: flex;
-    gap: 24px;
+    gap: 20px;
 }
 
 .skill{
     background-color: #ffffff;
-    box-shadow: 0px 6px 80px rgba(0, 0, 0, 0.377);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.377);
     border-radius: 10px;
     padding: 25px;
     margin-bottom: 80px;
@@ -206,7 +211,7 @@ tbody td{
 
 .skill:hover{
     background-color: #ffffff;
-    box-shadow: 0px 6px 30px rgba(0,0,0,0.06);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.06);
     border-radius: 10px;
     padding: 25px;
 }
@@ -228,6 +233,8 @@ tbody td{
 .resume{
     display: flex;
     justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
 }
 
 .container-title{
@@ -264,7 +271,7 @@ tbody td{
 .contact{
     display: flex;
     background-color: #fff8f3;
-    padding: 100px 50px;
+    padding: 90px 50px;
     /* height: 300px; */
 }
 
@@ -280,7 +287,7 @@ input{
 }
 
 .social-icon{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -290,4 +297,83 @@ form{
 
 
 /* Responsible */
+
+@media screen and (max-width:576px) {
+
+    .skills-container, .contact{
+        /* display: grid;
+        grid-template-columns: repeat(1,1fr); */
+        flex-direction: column;
+       
+    }
+    .resume{
+        flex-direction: column;
+        padding: 10px;
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+    }
+    .container-title{
+        margin-top: 30px;
+    }
+
+    .about-info{
+        flex-direction: column;
+    }
+    .title{
+        margin-top: 20px;
+    }
+    .about{
+        padding: 30px;
+    }
+    .social-icon{
+        margin-bottom: 20px;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        padding: 10px;
+    }
+    nav ul li{
+        margin-bottom: 15px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .header{
+
+        background: #fff8f3 ;
+        background-image: none ,url(./images/developer.png);
+        background-repeat: no-repeat;
+        background-position: bottom right, left;
+        height: 900px;
+    }
+
+   .b-subTitle{
+    font-size: 35px;
+   }
+   .banner{
+    margin: 0 150px;
+   }
+   .btns{
+    display: flex;
+    gap: 20px;
+   }
+
+   .first, .second{
+    height: 50px;
+    
+
+   }
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .hero-img{
+        display: none;
+    }
+    
+}
 
